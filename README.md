@@ -1,6 +1,6 @@
 **CORE CONCEPTS USED:**
 
-  1. LinkedList
+  1. **LinkedList:**
   The Snake is represented by a LinkedList. Every time the snake eats an Apple,
   units are added towards the end of the list so the snake can grow from the
   tail. Since the head was the most important part of the Snake--it is the part
@@ -11,7 +11,7 @@
   Arrays are not designed to be mutable and it was far easier for me to use a
   LinkedList to distinguish between the items on the board.
 
-  2. JUnit Test
+  2. **JUnit Test:**
   I used JUnit tests to ensure the game state was properly modified by some of
   the methods. I ensured the correct number of apples were being added every
   time the add() method was called and ensured the snake moved properly on the
@@ -19,7 +19,7 @@
   accuracy of these tests, which were helpful in pinpointing issues during
   development.
 
-  3. File I/O
+  3. **File I/O:**
   I added a Challenge Map button that provides advanced players with more fun!
   The map has four apples in each corner with a LandMine precariously close to
   one of them. Given the high speed of the snake, it's difficult to weave it
@@ -31,7 +31,7 @@
   this with high scores, but my TA said that wouldn't count and suggested I do
   "reading in map files that configure the experience of the game."
 
-  4. Inheritance/Subtyping
+  4. **Inheritance/Subtyping:**
   For the first basis of inheritance, I expanded upon the given GameObj class.
   This abstract class is subclassed by Item, which is another abstract class.
   Item consists of Apple and LandMine, and it holds the velocity and size of
