@@ -46,16 +46,21 @@
 
 **MY IMPLEMENTATION:**
 
-- Provide an overview of each of the classes in your code, and what their
-  function is in the overall game.
   Apple.java: Creates Apples to grow the Snake.
+  
   Direction.java: Enumeration to represent the UP, DOWN, LEFT, RIGHT movements
   possible
+  
   Game.java: Creates the GUI with buttons, panels, etc.
+  
   GameObj: Abstract class that represents Snake, Apples, and LandMines with
   functions that help determine intersection.
+  
   GamePlay: Contains the overall game logic (what happens when the Snake hits a
   wall or an Apple?) and is called consistently to progress the game.
+  
   Item: Abstract class that represents Apples and LandMines.
+  
   LandMine: Creates LandMines that can kill the Snake.
+  
   Snake: Creates the Snake and helps it move and grow.
