@@ -1,3 +1,5 @@
+**INSTRUCTIONS:** Move the Snake using the arrow keys. Consume apples to grow. Avoid landmines. The game ends if snake crashes into a wall or itself.
+
 **CORE CONCEPTS USED:**
 
   1. **LinkedList:**
