@@ -48,21 +48,21 @@
 
 **MY IMPLEMENTATION:**
 
-  Apple.java: Creates Apples to grow the Snake.
+  ```Apple```: Creates Apples to grow the Snake.
   
-  Direction.java: Enumeration to represent the UP, DOWN, LEFT, RIGHT movements
+  ```Direction```: Enumeration to represent the UP, DOWN, LEFT, RIGHT movements
   possible
   
-  Game.java: Creates the GUI with buttons, panels, etc.
+ ```Game```: Creates the GUI with buttons, panels, etc.
   
-  GameObj: Abstract class that represents Snake, Apples, and LandMines with
+  ```GameObj```: Abstract class that represents Snake, Apples, and LandMines with
   functions that help determine intersection.
   
-  GamePlay: Contains the overall game logic (what happens when the Snake hits a
+  ```GamePlay```: Contains the overall game logic (what happens when the Snake hits a
   wall or an Apple?) and is called consistently to progress the game.
   
-  Item: Abstract class that represents Apples and LandMines.
+  ```Item```: Abstract class that represents Apples and LandMines.
   
-  LandMine: Creates LandMines that can kill the Snake.
+  ```LandMine```: Creates LandMines that can kill the Snake.
   
-  Snake: Creates the Snake and helps it move and grow.
+  ```Snake```: Creates the Snake and helps it move and grow.
