@@ -29,9 +29,7 @@
   the presetMap.csv file to import the objects and their coordinates, which
   would have been far more difficult to hardcode into the game state.
   Additionally, this allows for easier changes to the CSV file in case the
-  challenge proves too hard or not challenging enough. I originally wanted to do
-  this with high scores, but my TA said that wouldn't count and suggested I do
-  "reading in map files that configure the experience of the game."
+  challenge proves too hard or not challenging enough.
 
   4. **Inheritance/Subtyping:**
   For the first basis of inheritance, I expanded upon the given GameObj class.
